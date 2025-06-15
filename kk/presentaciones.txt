@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Presentación de Platillos Mexicanos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #c0392b;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .platillo {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 40px;
+      overflow: hidden;
+    }
+
+    .platillo img {
+      width: 100%;
+      height: auto;
+      border-bottom: 4px solid #e74c3c;
+    }
+
+    .platillo-content {
+      padding: 20px;
+    }
+
+    .platillo h2 {
+      color: #e74c3c;
+      margin-top: 0;
+    }
+
+    .platillo p {
+      line-height: 1.6;
+      font-size: 17px;
+    }
+
+    .back-btn {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .back-btn a {
+      background-color: #e67e22;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .back-btn a:hover {
+      background-color: #d35400;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Presentación y Acompañamientos</h1>
+    <p>Descubre cómo se sirven los platillos típicos mexicanos</p>
+  </header>
+
+  <div class="container">
+
+    <div class="platillo">
+      <img src="https://cdn.pixabay.com/photo/2019/07/14/22/24/tacos-4332054_1280.jpg" alt="Tacos al Pastor">
+      <div class="platillo-content">
+        <h2>1. Tacos al Pastor</h2>
+        <p>Se sirven calientes en tortillas de maíz pequeñas, con carne recién cortada del trompo, acompañados de piña, cebolla, cilantro y salsa. Tradicionalmente se presentan sobre platos metálicos o de barro, a veces con un limón y rábanos al lado.</p>
+      </div>
+    </div>
+
+    <div class="platillo">
+      <img src="https://cdn.pixabay.com/photo/2019/03/09/10/56/mexican-food-4043271_1280.jpg" alt="Enchiladas Verdes">
+      <div class="platillo-content">
+        <h2>2. Enchiladas Verdes</h2>
+        <p>Servidas bañadas en salsa verde caliente, cubiertas con crema, queso rallado, cebolla y a veces con aguacate o lechuga. Se acompañan con arroz rojo o frijoles refritos, y se presentan en platos hondos o extendidos.</p>
+      </div>
+    </div>
+
+    <div class="platillo">
+      <img src="https://cdn.pixabay.com/photo/2016/07/05/16/53/pozole-1499560_1280.jpg" alt="Pozole Rojo">
+      <div class="platillo-content">
+        <h2>3. Pozole Rojo</h2>
+        <p>Servido en tazones grandes de cerámica, con maíz cacahuazintle y carne en caldo rojo. Se acompaña con lechuga, rábanos, orégano, cebolla, chile en polvo, tostadas y aguacate. Los comensales suelen personalizarlo con los ingredientes al gusto.</p>
+      </div>
+    </div>
+
+    <div class="platillo">
+      <img src="https://cdn.pixabay.com/photo/2022/09/16/18/12/chiles-en-nogada-7458761_1280.jpg" alt="Chiles en Nogada">
+      <div class="platillo-content">
+        <h2>4. Chiles en Nogada</h2>
+        <p>Presentados en platos blancos para resaltar los colores: el chile poblano relleno se cubre con salsa de nuez (nogada), granada roja y perejil fresco. Se sirven a temperatura ambiente, como platillo elegante y festivo.</p>
+      </div>
+    </div>
+
+    <div class="platillo">
+      <img src="https://cdn.pixabay.com/photo/2021/11/03/18/58/tamales-6766907_1280.jpg" alt="Tamales de Rajas con Queso">
+      <div class="platillo-content">
+        <h2>5. Tamales de Rajas con Queso</h2>
+        <p>Envueltos en hojas de maíz, se sirven calientes acompañados de atole o champurrado. Se pueden presentar abiertos en un plato o directamente en su envoltura. En eventos tradicionales se colocan en canastas o vaporeras grandes.</p>
+      </div>
+    </div>
+
+    <div class="platillo">
+      <img src="https://cdn.pixabay.com/photo/2018/06/02/19/14/guacamole-3443422_1280.jpg" alt="Guacamole">
+      <div class="platillo-content">
+        <h2>6. Guacamole</h2>
+        <p>Se sirve fresco, en molcajetes de piedra o tazones de barro, acompañado con totopos de maíz o como guarnición de otros platillos. A veces se decora con rodajas de chile, cebolla morada o granos de granada.</p>
+      </div>
+    </div>
+
+    <div class="back-btn">
+      <a href="comidita.html">⬅ Volver al Menú</a>
+    </div>
+
+  </div>
+</body>
+</html>
